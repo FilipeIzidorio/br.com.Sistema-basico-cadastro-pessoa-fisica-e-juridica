@@ -9,6 +9,7 @@ public class ClienteFisico extends Cliente {
     String cpf;
     String rg;
     String orgaoEmissor;
+    Endereco endereco;
 
     public ClienteFisico(String nomeCompleto, String cpf, String rg, String orgaoEmissor,String cep, String uf, String cidade, String bairro, String logradouro, String complemento, boolean clienteAtivo, String cadastro) {
         super(cep, uf, cidade, bairro, logradouro, complemento, clienteAtivo, cadastro);
